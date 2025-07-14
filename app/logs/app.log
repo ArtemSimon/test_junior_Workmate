@@ -1,0 +1,585 @@
+2025-07-11 14:06:45 - INFO - csv_processor - print lm
+2025-07-12 15:14:07 - INFO - csv_processor - fafaf
+2025-07-12 15:15:48 - INFO - csv_processor - fafaf
+2025-07-13 13:26:26 - INFO - csv_processor - fafaf
+2025-07-13 13:44:37 - INFO - csv_processor - fafaf
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - ERROR - csv_processor - Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:03:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: Оператор '>' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:07:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: Оператор '<' требует числа. Получено: <class 'str'> и <class 'int'>
+2025-07-13 17:16:48 - ERROR - csv_processor - Колонка 'ratin' не найдена в данных
+2025-07-13 17:21:17 - ERROR - csv_processor - Колонка 'ratin' не найдена
+2025-07-13 23:48:03 - ERROR - csv_processor - Колонка 'name' содержит нечисловые данные
+2025-07-14 00:20:22 - ERROR - csv_processor - Колонка 'name' содержит нечисловые данные
+2025-07-14 00:38:45 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (10 строк)
+2025-07-14 00:38:45 - INFO - csv_processor - Агрегация успешна. Результат: 149.00 | Время: 0.0002 сек
+2025-07-14 00:42:09 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (10 строк)
+2025-07-14 00:42:09 - INFO - csv_processor - Агрегация успешна. Результат: 149.00 | Время: 0.0003 сек
+2025-07-14 00:42:25 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (10 строк)
+2025-07-14 00:42:25 - INFO - csv_processor - Агрегация успешна. Результат: 149.00 | Время: 0.0002 сек
+2025-07-14 00:43:37 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (10 строк)
+2025-07-14 00:43:37 - INFO - csv_processor - Агрегация успешна. Результат: 1199.00 | Время: 0.0002 сек
+2025-07-14 00:44:19 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (10 строк)
+2025-07-14 00:44:19 - INFO - csv_processor - Агрегация успешна. Результат: 1199.00 | Время: 0.0003 сек
+2025-07-14 00:44:19 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (10 строк)
+2025-07-14 00:44:19 - INFO - csv_processor - Агрегация успешна. Результат: 1199.00 | Время: 0.0002 сек
+2025-07-14 00:44:32 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (10 строк)
+2025-07-14 00:44:32 - INFO - csv_processor - Агрегация успешна. Результат: 1199.00 | Время: 0.0002 сек
+2025-07-14 00:45:18 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'rating' (10 строк)
+2025-07-14 00:45:18 - INFO - csv_processor - Агрегация успешна. Результат: 4.49 | Время: 0.0003 сек
+2025-07-14 01:12:00 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (10 строк)
+2025-07-14 01:12:00 - INFO - csv_processor - Агрегация успешна. Результат: 149.00 | Время: 0.0003 сек
+2025-07-14 01:14:24 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where=None, aggregate=None)
+2025-07-14 01:14:24 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 01:14:24 - CRITICAL - csv_processor - Ошибка выполнения: 'Printer' object has no attribute 'print_table'
+2025-07-14 01:14:54 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where=None, aggregate=None)
+2025-07-14 01:14:54 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 01:15:43 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where='rating>4.5', aggregate=None)
+2025-07-14 01:15:43 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 01:15:43 - INFO - csv_processor - Применение фильтра: rating > 4.5
+2025-07-14 01:15:43 - CRITICAL - csv_processor - Ошибка выполнения: '>' not supported between instances of 'float' and 'str'
+2025-07-14 01:17:18 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where='price>4.5', aggregate=None)
+2025-07-14 01:17:18 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 01:17:18 - INFO - csv_processor - Применение фильтра: price > 4.5
+2025-07-14 01:17:18 - CRITICAL - csv_processor - Ошибка выполнения: '>' not supported between instances of 'int' and 'str'
+2025-07-14 01:19:12 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where='price>4.5', aggregate=None)
+2025-07-14 01:19:12 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 01:19:12 - INFO - csv_processor - Применение фильтра: price > 4.5
+2025-07-14 01:19:12 - CRITICAL - csv_processor - Ошибка выполнения: '>' not supported between instances of 'int' and 'str'
+2025-07-14 01:25:39 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where='price>100', aggregate=None)
+2025-07-14 01:25:39 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 01:25:39 - INFO - csv_processor - Применение фильтра: price > 100
+2025-07-14 01:25:39 - CRITICAL - csv_processor - Ошибка выполнения: '>' not supported between instances of 'int' and 'str'
+2025-07-14 01:26:03 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where='price<100', aggregate=None)
+2025-07-14 01:26:03 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 01:26:03 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 01:26:03 - CRITICAL - csv_processor - Ошибка выполнения: '<' not supported between instances of 'int' and 'str'
+2025-07-14 12:15:56 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where=None, aggregate=None)
+2025-07-14 12:15:56 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:16:36 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where=None, aggregate=None)
+2025-07-14 12:16:36 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:40:39 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where=None, aggregate=None)
+2025-07-14 12:40:39 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:40:50 - INFO - csv_processor - Получены аргументы: Namespace(file='app/products.csv', where='price>100', aggregate=None)
+2025-07-14 12:40:50 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:40:50 - INFO - csv_processor - Применение фильтра: price > 100
+2025-07-14 12:40:50 - CRITICAL - csv_processor - Ошибка выполнения: '>' not supported between instances of 'int' and 'str'
+2025-07-14 12:46:49 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate=None)
+2025-07-14 12:46:49 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:47:12 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 12:47:12 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:47:12 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 12:47:12 - CRITICAL - csv_processor - Ошибка выполнения: '<' not supported between instances of 'int' and 'str'
+2025-07-14 12:57:58 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 12:57:58 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:57:58 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 12:57:58 - CRITICAL - csv_processor - Ошибка выполнения: IFilter.validate_number() missing 2 required positional arguments: 'value' and 'operator'
+2025-07-14 12:59:54 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 12:59:54 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 12:59:54 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 12:59:54 - CRITICAL - csv_processor - Ошибка выполнения: 'Printer' object has no attribute 'print_table'
+2025-07-14 13:00:29 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:00:29 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:00:29 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:00:29 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<1000', aggregate=None)
+2025-07-14 13:01:09 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:01:09 - INFO - csv_processor - Применение фильтра: price < 1000
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:01:09 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: сравнение строк не поддерживается для операторов '>'/'<'
+2025-07-14 13:03:17 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<1000', aggregate=None)
+2025-07-14 13:03:17 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:03:17 - INFO - csv_processor - Применение фильтра: price < 1000
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:03:17 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: Оператор '<' требует числа. Получено: <class 'int'> и <class 'str'>
+2025-07-14 13:10:03 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<1000', aggregate=None)
+2025-07-14 13:10:03 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:10:03 - INFO - csv_processor - Применение фильтра: price < 1000
+2025-07-14 13:10:03 - CRITICAL - csv_processor - Ошибка выполнения: '<' not supported between instances of 'int' and 'str'
+2025-07-14 13:12:08 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<1000', aggregate=None)
+2025-07-14 13:12:08 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:12:08 - INFO - csv_processor - Применение фильтра: price < 1000
+2025-07-14 13:12:08 - CRITICAL - csv_processor - Ошибка выполнения: '<' not supported between instances of 'int' and 'str'
+2025-07-14 13:24:42 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<1000', aggregate=None)
+2025-07-14 13:24:42 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:24:42 - INFO - csv_processor - Применение фильтра: price < 1000
+2025-07-14 13:25:25 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:25:25 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:25:25 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:27:28 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:27:28 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:27:28 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:27:51 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:27:51 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:27:51 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:28:39 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:28:39 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:28:39 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:30:03 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:30:03 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:30:03 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:30:56 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:30:56 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:30:56 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:31:12 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:31:12 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:31:12 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:31:40 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:31:40 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:31:40 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:32:32 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:32:32 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:32:32 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:33:51 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:33:51 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:33:51 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:34:17 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:34:17 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:34:17 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:34:30 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:34:30 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:34:30 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:35:37 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:35:37 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:35:37 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:35:37 - CRITICAL - csv_processor - Ошибка выполнения: No active exception to reraise
+2025-07-14 13:35:52 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:35:52 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:35:52 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:36:07 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:36:07 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:36:07 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:37:16 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:37:16 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:37:16 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:37:27 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price<100', aggregate=None)
+2025-07-14 13:37:27 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:37:27 - INFO - csv_processor - Применение фильтра: price < 100
+2025-07-14 13:39:25 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price>100', aggregate=None)
+2025-07-14 13:39:25 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:39:25 - INFO - csv_processor - Применение фильтра: price > 100
+2025-07-14 13:39:56 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price>500', aggregate=None)
+2025-07-14 13:39:56 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:39:56 - INFO - csv_processor - Применение фильтра: price > 500
+2025-07-14 13:40:12 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price=500', aggregate=None)
+2025-07-14 13:40:12 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:40:12 - INFO - csv_processor - Применение фильтра: price = 500
+2025-07-14 13:40:21 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price=599', aggregate=None)
+2025-07-14 13:40:21 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:40:21 - INFO - csv_processor - Применение фильтра: price = 599
+2025-07-14 13:41:12 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price=599', aggregate=None)
+2025-07-14 13:41:12 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:41:12 - INFO - csv_processor - Применение фильтра: price = 599
+2025-07-14 13:41:43 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price=599', aggregate=None)
+2025-07-14 13:41:43 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:41:43 - INFO - csv_processor - Применение фильтра: price = 599
+2025-07-14 13:54:15 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='price=599', aggregate=None)
+2025-07-14 13:54:15 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:54:15 - INFO - csv_processor - Применение фильтра: price = 599
+2025-07-14 13:54:31 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate=None)
+2025-07-14 13:54:31 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:54:31 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:54:31 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate=None)
+2025-07-14 13:55:51 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:55:51 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:55:51 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate=None)
+2025-07-14 13:57:07 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:57:07 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'samsung' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'xiaomi' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:57:07 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'apple' (<class 'str'>) и 'apple' (<class 'str'>)
+2025-07-14 13:58:46 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='rating=4.9', aggregate=None)
+2025-07-14 13:58:46 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:58:46 - INFO - csv_processor - Применение фильтра: rating = 4.9
+2025-07-14 13:59:02 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='rating=4.9', aggregate=None)
+2025-07-14 13:59:02 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:59:02 - INFO - csv_processor - Применение фильтра: rating = 4.9
+2025-07-14 13:59:59 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='name=iphone 13 mini', aggregate=None)
+2025-07-14 13:59:59 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 13:59:59 - INFO - csv_processor - Применение фильтра: name = iphone 13 mini
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 13:59:59 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 13 mini' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='name=iphone 13 mini', aggregate=None)
+2025-07-14 14:02:00 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:02:00 - INFO - csv_processor - Применение фильтра: name = iphone 13 mini
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:02:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 13 mini' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='name=iphone 13 mini', aggregate=None)
+2025-07-14 14:04:00 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:04:00 - INFO - csv_processor - Применение фильтра: name = iphone 13 mini
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:04:00 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 13 mini' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='name=iphone 13 mini', aggregate=None)
+2025-07-14 14:05:09 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:05:09 - INFO - csv_processor - Применение фильтра: name = iphone 13 mini
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: Оператор '=' требует числа. Получено: 'iphone 15 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: Оператор '=' требует числа. Получено: 'galaxy s23 ultra' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'redmi note 12' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: Оператор '=' требует числа. Получено: 'iphone 14' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: Оператор '=' требует числа. Получено: 'galaxy a54' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: Оператор '=' требует числа. Получено: 'poco x5 pro' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'iphone se' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: Оператор '=' требует числа. Получено: 'galaxy z flip 5' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: Оператор '=' требует числа. Получено: 'redmi 10c' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:05:09 - ERROR - csv_processor - Оператор '=' требует числа. Получено: 'iphone 13 mini' (<class 'str'>) и 'iphone 13 mini' (<class 'str'>)
+2025-07-14 14:07:59 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='name=iphone 13 mini', aggregate=None)
+2025-07-14 14:07:59 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:07:59 - INFO - csv_processor - Применение фильтра: name = iphone 13 mini
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: could not convert string to float: 'iphone 15 pro'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'galaxy s23 ultra'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: could not convert string to float: 'redmi note 12'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: could not convert string to float: 'iphone 14'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'galaxy a54'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: could not convert string to float: 'poco x5 pro'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: could not convert string to float: 'iphone se'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'galaxy z flip 5'
+2025-07-14 14:07:59 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: could not convert string to float: 'redmi 10c'
+2025-07-14 14:11:24 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='rating=avg')
+2025-07-14 14:11:24 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:11:24 - INFO - csv_processor - Выполнение агрегации: avg(rating)
+2025-07-14 14:11:24 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'rating' (10 строк)
+2025-07-14 14:11:24 - INFO - csv_processor - Агрегация успешна. Результат: 4.49 | Время: 0.0001 сек
+2025-07-14 14:12:28 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='rating=avg')
+2025-07-14 14:12:28 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:12:28 - INFO - csv_processor - Выполнение агрегации: avg(rating)
+2025-07-14 14:12:28 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'rating' (10 строк)
+2025-07-14 14:12:28 - INFO - csv_processor - Агрегация успешна. Результат: 4.49 | Время: 0.0002 сек
+2025-07-14 14:12:51 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='rating=min')
+2025-07-14 14:12:51 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:12:51 - INFO - csv_processor - Выполнение агрегации: min(rating)
+2025-07-14 14:12:51 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'rating' (10 строк)
+2025-07-14 14:12:51 - INFO - csv_processor - Агрегация успешна. Результат: 4.10 | Время: 0.0001 сек
+2025-07-14 14:12:58 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='rating=max')
+2025-07-14 14:12:58 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:12:58 - INFO - csv_processor - Выполнение агрегации: max(rating)
+2025-07-14 14:12:58 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (10 строк)
+2025-07-14 14:12:58 - INFO - csv_processor - Агрегация успешна. Результат: 4.90 | Время: 0.0002 сек
+2025-07-14 14:13:24 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='price=max')
+2025-07-14 14:13:24 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:13:24 - INFO - csv_processor - Выполнение агрегации: max(price)
+2025-07-14 14:13:24 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (10 строк)
+2025-07-14 14:13:24 - INFO - csv_processor - Агрегация успешна. Результат: 1199.00 | Время: 0.0001 сек
+2025-07-14 14:13:29 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='price=min')
+2025-07-14 14:13:29 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:13:29 - INFO - csv_processor - Выполнение агрегации: min(price)
+2025-07-14 14:13:29 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (10 строк)
+2025-07-14 14:13:29 - INFO - csv_processor - Агрегация успешна. Результат: 149.00 | Время: 0.0002 сек
+2025-07-14 14:13:34 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='price=avg')
+2025-07-14 14:13:34 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:13:34 - INFO - csv_processor - Выполнение агрегации: avg(price)
+2025-07-14 14:13:34 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (10 строк)
+2025-07-14 14:13:34 - INFO - csv_processor - Агрегация успешна. Результат: 602.00 | Время: 0.0001 сек
+2025-07-14 14:14:19 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=xiaomi', aggregate='price=min')
+2025-07-14 14:14:19 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:14:19 - INFO - csv_processor - Применение фильтра: brand = xiaomi
+2025-07-14 14:14:19 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: could not convert string to float: 'apple'
+2025-07-14 14:14:19 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:14:19 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: could not convert string to float: 'apple'
+2025-07-14 14:14:19 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:14:19 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: could not convert string to float: 'apple'
+2025-07-14 14:14:19 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:14:19 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: could not convert string to float: 'apple'
+2025-07-14 14:14:19 - INFO - csv_processor - Выполнение агрегации: min(price)
+2025-07-14 14:14:19 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (10 строк)
+2025-07-14 14:14:19 - INFO - csv_processor - Агрегация успешна. Результат: 149.00 | Время: 0.0002 сек
+2025-07-14 14:22:34 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=xiaomi', aggregate='price=min')
+2025-07-14 14:22:34 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:22:34 - INFO - csv_processor - Применение фильтра: brand = xiaomi
+2025-07-14 14:22:34 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: could not convert string to float: 'apple'
+2025-07-14 14:22:34 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:22:34 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: could not convert string to float: 'apple'
+2025-07-14 14:22:34 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:22:34 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: could not convert string to float: 'apple'
+2025-07-14 14:22:34 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:22:34 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: could not convert string to float: 'apple'
+2025-07-14 14:22:34 - INFO - csv_processor - Выполнение агрегации: min(price)
+2025-07-14 14:22:34 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 14:22:34 - INFO - csv_processor - Агрегация успешна. Результат: 149.00 | Время: 0.0001 сек
+2025-07-14 14:23:07 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=xiaomi', aggregate='price=avg')
+2025-07-14 14:23:07 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:23:07 - INFO - csv_processor - Применение фильтра: brand = xiaomi
+2025-07-14 14:23:07 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: could not convert string to float: 'apple'
+2025-07-14 14:23:07 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:23:07 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: could not convert string to float: 'apple'
+2025-07-14 14:23:07 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:23:07 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: could not convert string to float: 'apple'
+2025-07-14 14:23:07 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:23:07 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: could not convert string to float: 'apple'
+2025-07-14 14:23:07 - INFO - csv_processor - Выполнение агрегации: avg(price)
+2025-07-14 14:23:07 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 14:23:07 - INFO - csv_processor - Агрегация успешна. Результат: 215.67 | Время: 0.0001 сек
+2025-07-14 14:24:15 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=xiaomi', aggregate='rating=min')
+2025-07-14 14:24:15 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:24:15 - INFO - csv_processor - Применение фильтра: brand = xiaomi
+2025-07-14 14:24:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone 15 pro', 'brand': 'apple', 'price': 999, 'rating': 4.9}: could not convert string to float: 'apple'
+2025-07-14 14:24:15 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:24:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone 14', 'brand': 'apple', 'price': 799, 'rating': 4.7}: could not convert string to float: 'apple'
+2025-07-14 14:24:15 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:24:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone se', 'brand': 'apple', 'price': 429, 'rating': 4.1}: could not convert string to float: 'apple'
+2025-07-14 14:24:15 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:24:15 - INFO - csv_processor - Пропуск строки {'name': 'iphone 13 mini', 'brand': 'apple', 'price': 599, 'rating': 4.5}: could not convert string to float: 'apple'
+2025-07-14 14:24:15 - INFO - csv_processor - Выполнение агрегации: min(rating)
+2025-07-14 14:24:15 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'rating' (3 строк)
+2025-07-14 14:24:15 - INFO - csv_processor - Агрегация успешна. Результат: 4.10 | Время: 0.0001 сек
+2025-07-14 14:24:24 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate='rating=min')
+2025-07-14 14:24:24 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:24:24 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 14:24:24 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:24:24 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:24 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:24:24 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:24 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:24:24 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:24 - INFO - csv_processor - Выполнение агрегации: min(rating)
+2025-07-14 14:24:24 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'rating' (4 строк)
+2025-07-14 14:24:24 - INFO - csv_processor - Агрегация успешна. Результат: 4.10 | Время: 0.0001 сек
+2025-07-14 14:24:38 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate='rating=avg')
+2025-07-14 14:24:38 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:24:38 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 14:24:38 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:24:38 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:38 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:24:38 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:38 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:24:38 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:38 - INFO - csv_processor - Выполнение агрегации: avg(rating)
+2025-07-14 14:24:38 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'rating' (4 строк)
+2025-07-14 14:24:38 - INFO - csv_processor - Агрегация успешна. Результат: 4.55 | Время: 0.0002 сек
+2025-07-14 14:24:54 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate='price=avg')
+2025-07-14 14:24:54 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:24:54 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 14:24:54 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:24:54 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:54 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:24:54 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:54 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:24:54 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: could not convert string to float: 'xiaomi'
+2025-07-14 14:24:54 - INFO - csv_processor - Выполнение агрегации: avg(price)
+2025-07-14 14:24:54 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (4 строк)
+2025-07-14 14:24:54 - INFO - csv_processor - Агрегация успешна. Результат: 706.50 | Время: 0.0001 сек
+2025-07-14 14:28:03 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate='price=avg')
+2025-07-14 14:28:03 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:28:03 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 14:28:03 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:28:03 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: could not convert string to float: 'xiaomi'
+2025-07-14 14:28:03 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:28:03 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: could not convert string to float: 'xiaomi'
+2025-07-14 14:28:03 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:28:03 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: could not convert string to float: 'xiaomi'
+2025-07-14 14:28:03 - INFO - csv_processor - Выполнение агрегации: avg(price)
+2025-07-14 14:28:03 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (4 строк)
+2025-07-14 14:28:03 - INFO - csv_processor - Агрегация успешна. Результат: 706.50 | Время: 0.0001 сек
+2025-07-14 14:29:00 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where='brand=apple', aggregate='price=avg')
+2025-07-14 14:29:00 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:29:00 - INFO - csv_processor - Применение фильтра: brand = apple
+2025-07-14 14:29:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy s23 ultra', 'brand': 'samsung', 'price': 1199, 'rating': 4.8}: could not convert string to float: 'samsung'
+2025-07-14 14:29:00 - INFO - csv_processor - Пропуск строки {'name': 'redmi note 12', 'brand': 'xiaomi', 'price': 199, 'rating': 4.6}: could not convert string to float: 'xiaomi'
+2025-07-14 14:29:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy a54', 'brand': 'samsung', 'price': 349, 'rating': 4.2}: could not convert string to float: 'samsung'
+2025-07-14 14:29:00 - INFO - csv_processor - Пропуск строки {'name': 'poco x5 pro', 'brand': 'xiaomi', 'price': 299, 'rating': 4.4}: could not convert string to float: 'xiaomi'
+2025-07-14 14:29:00 - INFO - csv_processor - Пропуск строки {'name': 'galaxy z flip 5', 'brand': 'samsung', 'price': 999, 'rating': 4.6}: could not convert string to float: 'samsung'
+2025-07-14 14:29:00 - INFO - csv_processor - Пропуск строки {'name': 'redmi 10c', 'brand': 'xiaomi', 'price': 149, 'rating': 4.1}: could not convert string to float: 'xiaomi'
+2025-07-14 14:29:00 - INFO - csv_processor - Выполнение агрегации: avg(price)
+2025-07-14 14:29:00 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (4 строк)
+2025-07-14 14:29:00 - INFO - csv_processor - Агрегация успешна. Результат: 706.50 | Время: 0.0001 сек
+2025-07-14 14:29:08 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='price=avg')
+2025-07-14 14:29:08 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:29:08 - INFO - csv_processor - Выполнение агрегации: avg(price)
+2025-07-14 14:29:08 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (10 строк)
+2025-07-14 14:29:08 - INFO - csv_processor - Агрегация успешна. Результат: 602.00 | Время: 0.0004 сек
+2025-07-14 14:29:16 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate='price=max')
+2025-07-14 14:29:16 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 14:29:16 - INFO - csv_processor - Выполнение агрегации: max(price)
+2025-07-14 14:29:16 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (10 строк)
+2025-07-14 14:29:16 - INFO - csv_processor - Агрегация успешна. Результат: 1199.00 | Время: 0.0001 сек
+2025-07-14 14:29:26 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate=None)
+2025-07-14 14:29:26 - INFO - csv_processor - Загружено 10 строк
