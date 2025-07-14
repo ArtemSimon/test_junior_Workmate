@@ -16,6 +16,3 @@ class Filter_Operators():
             logger.error(f'Нету такого оператора {operators}')
         return filters[operators]
     
-
-operator = Filter_Operators()
-# print(operator.create_filter('>'))

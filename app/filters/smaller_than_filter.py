@@ -30,5 +30,3 @@ class SmallerThanFilter(IFilter):
       
         return filtered_data
 
-filter_sm = SmallerThanFilter()
-# print(filter_sm.apply(result,'price','500'))

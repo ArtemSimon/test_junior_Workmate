@@ -31,10 +31,3 @@ class IFilter(ABC):
             )
             logger.error(message)
             raise ValueError(message)
-
-
-        # if (not isinstance(column_value,(float,int)) or not isinstance(value,(float,int))):
-        #     message = ( f"Оператор '{operator}' требует числа. "
-        #         f"Получено: {type(column_value)} и {type(value)}")
-        #     logger.error(message)
-        #     raise ValueError(message)

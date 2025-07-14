@@ -30,6 +30,3 @@ class LargerThanFilter(IFilter):
                 logger.info(f'Пропуск строки {row}: {str(e)}')
              
         return filtered_data
-    
-filter = LargerThanFilter()
-# print(filter.apply(result,'rating',5.5))

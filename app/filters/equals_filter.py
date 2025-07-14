@@ -31,6 +31,3 @@ class EqualsFilter(IFilter):
 
         return filtered_data
         
-
-filter_eq = EqualsFilter()
-# print(filter_eq.apply(result,'price',599))
