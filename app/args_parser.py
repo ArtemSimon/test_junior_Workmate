@@ -76,8 +76,3 @@ class ArgsParser():
             raise ValueError(f'Недопустимая операция для агрегации {agg_action}')
         
         return col.strip(),agg_action.strip()
-    
-
-parser = ArgsParser()
-print(parser._parse_condition('price<100'))
-print(parser._parse_aggregate('rating=avg'))

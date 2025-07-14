@@ -1,7 +1,7 @@
 import sys
 from tabulate import tabulate
 from typing import Any
-from csv_loader import result
+from app.csv_loader import result
 
 class Printer():
     def __init__(self,table_format: str='grid'):
@@ -26,7 +26,4 @@ class Printer():
         print(f'[!] {message}',file=sys.stderr)
 
 
-    
-printer= Printer()
-printer.print_aggregate('avg',4.8)
-printer.print_data(result)
+

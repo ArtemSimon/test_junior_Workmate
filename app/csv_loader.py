@@ -38,5 +38,3 @@ class CSVLoader():
                 parse_dict[key] = value.strip()
         return parse_dict
 
-loader = CSVLoader()
-result = loader.load_file('products.csv')
