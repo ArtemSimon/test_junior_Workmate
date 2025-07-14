@@ -1,6 +1,5 @@
 from app.filters.interface_filter import IFilter
 from typing import Any
-from app.csv_loader import result
 from app.logs.logger import logger
 
 
@@ -22,7 +21,7 @@ class SmallerThanFilter(IFilter):
 
             try:
                 if self.validate_number(column_value,value,"<"):
-                    if column_value < float(value):
+                    if float(column_value) < float(value):
                         filtered_data.append(row)
 
             except ValueError as e:

@@ -1,7 +1,7 @@
 from app.aggregate.interface_aggregate import IAggregation
 from typing import Any
 from app.logs.logger import logger
-from app.csv_loader import result
+
 
 class AvgAggregator(IAggregation):
 

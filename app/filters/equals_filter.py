@@ -1,6 +1,5 @@
 from app.filters.interface_filter import IFilter
 from typing import Any
-from app.csv_loader import result
 from app.logs.logger import logger
 
 class EqualsFilter(IFilter):

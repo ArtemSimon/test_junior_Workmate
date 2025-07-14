@@ -583,3 +583,1034 @@
 2025-07-14 14:29:16 - INFO - csv_processor - Агрегация успешна. Результат: 1199.00 | Время: 0.0001 сек
 2025-07-14 14:29:26 - INFO - csv_processor - Получены аргументы: Namespace(file='products.csv', where=None, aggregate=None)
 2025-07-14 14:29:26 - INFO - csv_processor - Загружено 10 строк
+2025-07-14 20:52:21 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 20:56:14 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 20:56:14 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 20:57:04 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 20:57:04 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 20:58:14 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 20:58:14 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:09:59 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:09:59 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:09:59 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:09:59 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:09:59 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:09:59 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:09:59 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:09:59 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:09:59 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (0 строк)
+2025-07-14 21:09:59 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: division by zero | Колонка: price | Время: 0.0003 сек
+2025-07-14 21:09:59 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 21:09:59 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:11:51 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:11:51 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:11:51 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:11:51 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:11:51 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:11:51 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:11:51 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:11:51 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0004 сек
+2025-07-14 21:11:51 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (0 строк)
+2025-07-14 21:11:51 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: division by zero | Колонка: price | Время: 0.0004 сек
+2025-07-14 21:11:51 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 21:11:51 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:12:05 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:12:05 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:12:05 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:12:05 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:12:05 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:12:05 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:12:05 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:12:05 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:12:05 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (0 строк)
+2025-07-14 21:12:05 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: division by zero | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:12:05 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 21:12:05 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:12:44 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:12:44 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:12:44 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:12:44 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:12:44 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:12:44 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:12:44 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:12:44 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:12:44 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 21:12:44 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:14:48 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:14:48 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0007 сек
+2025-07-14 21:14:48 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:14:48 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:14:48 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:14:48 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:14:48 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:14:48 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:14:48 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:14:48 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 21:14:48 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:14:48 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:14:48 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:14:48 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:14:48 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:14:48 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0011 сек
+2025-07-14 21:14:48 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 21:14:48 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:15:13 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:15:13 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:15:13 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:15:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:15:13 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:15:13 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:15:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:15:13 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:15:13 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:15:13 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0006 сек
+2025-07-14 21:15:13 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:15:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:15:13 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 21:15:13 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:15:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:15:13 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:15:13 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 21:15:13 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:19:08 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:19:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:19:08 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:19:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:19:08 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:19:08 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0003 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:19:08 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:19:08 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0007 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:19:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:19:08 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:19:08 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:19:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:19:08 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:19:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:19:08 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:19:08 - INFO - csv_processor - Пропуск строки {'name': 'apple'}: could not convert string to float: 'apple'
+2025-07-14 21:19:08 - INFO - csv_processor - Пропуск строки {'name': 'xiaomi'}: could not convert string to float: 'xiaomi'
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:27:24 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0008 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:27:24 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:27:24 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:27:24 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:27:24 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:27:24 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:27:24 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:27:24 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0007 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:27:24 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:27:24 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:27:24 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0006 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:27:24 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:27:24 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:27:24 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:27:24 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:27:24 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:28:12 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0010 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:28:12 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:28:12 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0012 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:28:12 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:28:12 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:28:12 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:28:12 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:28:12 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0005 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:28:12 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:28:12 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0011 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:28:12 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0004 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:28:12 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:28:12 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0004 сек
+2025-07-14 21:28:12 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:28:12 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:28:12 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:28:12 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:28:12 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:28:12 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:28:12 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:28:12 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:28:12 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:29:17 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:29:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:29:17 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:29:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:29:17 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:29:17 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0003 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:29:17 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:29:17 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0008 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:29:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:29:17 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:29:17 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:29:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:29:17 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:29:17 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:29:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:29:17 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:29:17 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:29:17 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:29:17 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:29:17 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:29:17 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:29:17 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:30:56 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:30:56 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:30:56 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:30:56 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:30:56 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:30:56 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:30:56 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:30:56 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0006 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:30:56 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:30:56 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:30:56 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:30:56 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:30:56 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:30:56 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:30:56 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:30:56 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:30:56 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:30:56 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:30:56 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:30:56 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:30:56 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:30:56 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:31:53 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:31:53 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:31:53 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:31:53 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:31:53 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:31:53 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:31:53 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:31:53 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0008 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:31:53 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:31:53 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0012 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:31:53 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0006 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:31:53 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:31:53 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:31:53 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:31:53 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:31:53 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:31:53 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:31:53 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:31:53 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:31:53 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:31:53 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:31:53 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:34:01 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0007 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:34:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:01 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:34:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:01 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:34:01 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:34:01 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:34:01 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0007 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:34:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:01 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:34:01 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0006 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:34:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:01 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:34:01 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:34:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:01 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:34:01 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:01 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:01 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:01 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:01 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:01 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:34:34 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0008 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:34:34 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:34 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:34:34 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:34 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:34:34 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0006 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:34:34 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:34:34 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0013 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:34:34 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:34 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0014 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:34:34 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:34:34 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:34 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:34:34 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:34:34 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:34:34 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0022 сек
+2025-07-14 21:34:34 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:34 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:34 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:34 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:34 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:34 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:34:34 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:37:30 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:37:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:30 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:37:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:30 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:37:30 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:37:30 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:37:30 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0008 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:37:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:30 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:37:30 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0004 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:37:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:30 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:37:30 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:37:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:30 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:37:30 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:30 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:30 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:30 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:30 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:30 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:30 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 21:37:30 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:30 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:30 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:30 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:30 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:30 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:46 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:37:46 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:37:46 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:37:46 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:46 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:37:46 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:37:46 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:46 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:37:46 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:37:46 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 21:37:46 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:37:47 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:37:47 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0010 сек
+2025-07-14 21:37:47 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:37:47 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:47 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 21:37:47 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:37:47 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0003 сек
+2025-07-14 21:37:47 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:37:47 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:47 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:37:47 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:37:47 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:37:47 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:37:47 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:47 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:47 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:47 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:47 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:47 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:37:47 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 21:37:47 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:47 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:47 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:47 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:47 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:37:47 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:40:36 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:40:36 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:40:36 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:40:36 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:40:36 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:40:36 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0003 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:40:36 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:40:36 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0005 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:40:36 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:40:36 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:40:36 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:40:36 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:40:36 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:40:36 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:40:36 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:40:36 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:40:36 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:40:36 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:40:36 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:40:36 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:40:36 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:40:36 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:40:36 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 21:40:36 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:40:36 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:40:36 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:40:36 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:40:36 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:40:36 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:41:59 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 21:41:59 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:41:59 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 21:41:59 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:41:59 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 21:41:59 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 21:41:59 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 21:41:59 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0009 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 21:41:59 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:41:59 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:41:59 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 21:41:59 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:41:59 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0011 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 21:41:59 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 21:41:59 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 21:41:59 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:41:59 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:41:59 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 21:41:59 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 21:41:59 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:41:59 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:41:59 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 21:41:59 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:12:11 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:12:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:12:11 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:12:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:12:11 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:12:11 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:12:11 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:12:11 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0006 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:12:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:12:11 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:12:11 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0006 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:12:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:12:11 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:12:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:12:11 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:12:11 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:12:11 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:12:11 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:12:11 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:12:11 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:12:11 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:12:11 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:12:11 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:14:01 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:14:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:01 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:14:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:01 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:14:01 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:14:01 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:14:01 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0008 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:14:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:01 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:14:01 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0004 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:14:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:01 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:14:01 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:01 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:14:01 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:01 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:01 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:01 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:14:01 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:01 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:01 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:01 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:14:17 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:14:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:17 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:14:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:17 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:14:17 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0006 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:14:17 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:14:17 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0005 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:14:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:17 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:14:17 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0006 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:14:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:17 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:14:17 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:14:17 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:14:17 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:17 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:17 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:14:17 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:14:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:17 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:14:17 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:15:31 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:15:31 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:15:31 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:15:31 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:15:31 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:15:31 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:15:31 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:15:31 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0008 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:15:31 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:15:31 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:15:31 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:15:31 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:15:31 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:15:31 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:15:31 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:15:31 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:15:31 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:15:31 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:15:31 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:15:31 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:15:31 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:15:31 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:15:31 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:21:22 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0008 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:21:22 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:21:22 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:21:22 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:21:22 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:21:22 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0006 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:21:22 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:21:22 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0006 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:21:22 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:21:22 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:21:22 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0004 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:21:22 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:21:22 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0011 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:21:22 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:21:22 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:21:22 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:21:22 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:21:22 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:21:22 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:21:22 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:21:22 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:21:22 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:21:22 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:22:30 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0008 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:22:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:22:30 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:22:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:22:30 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:22:30 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:22:30 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:22:30 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0008 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:22:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:22:30 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:22:30 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:22:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:22:30 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:22:30 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:22:30 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:22:30 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:22:30 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:22:30 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:22:30 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:22:30 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:22:30 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:22:30 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:22:30 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:23:11 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0007 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:23:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:23:11 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:23:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:23:11 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0011 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:23:11 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0006 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:23:11 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:23:11 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0010 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:23:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:23:11 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:23:11 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:23:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:23:11 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:23:11 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:23:11 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:23:11 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:23:11 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:23:11 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:23:11 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:23:11 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:23:11 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:23:11 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:23:11 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:24:14 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0007 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:24:14 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:14 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:24:14 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:14 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:24:14 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:24:14 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:24:14 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0004 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:24:14 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:14 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:24:14 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:24:14 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:14 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:24:14 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:14 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:24:14 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:14 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:14 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:14 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:24:14 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:14 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:14 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:14 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:24:35 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0007 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:24:35 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:35 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:24:35 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:35 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:24:35 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:24:35 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:24:35 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0007 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:24:35 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:35 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:24:35 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:24:35 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:35 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:24:35 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:24:35 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:24:35 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:35 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:35 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:24:35 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:24:35 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:35 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:35 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:24:35 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:26:18 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0008 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:26:18 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:26:18 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:26:18 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:26:18 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0011 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:26:18 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0003 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:26:18 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:26:18 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0009 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:26:18 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:26:18 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:26:18 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:26:18 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:26:18 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0005 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:26:18 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:26:18 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:26:18 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:26:18 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:26:18 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:26:18 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:26:18 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:26:18 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:26:18 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:26:18 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:27:05 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:27:05 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:27:05 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:27:05 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:27:05 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:27:05 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:27:05 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:27:05 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0007 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:27:05 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:27:05 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:27:05 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0004 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:27:05 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:27:05 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:27:05 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:27:05 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0004 сек
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:27:05 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:27:05 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:27:05 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:27:05 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:27:05 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:27:05 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:27:05 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:27:05 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:30:27 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0010 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:30:27 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:30:27 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:30:27 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:30:27 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:30:27 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0004 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:30:27 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:30:27 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0010 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:30:27 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:30:27 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0010 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:30:27 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0004 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:30:27 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:30:27 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:30:27 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:30:27 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:30:27 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:30:27 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:30:27 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:30:27 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:30:27 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:30:27 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:30:27 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:30:27 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:32:13 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0007 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:32:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:32:13 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:32:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:32:13 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:32:13 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0008 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:32:13 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:32:13 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0009 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:32:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:32:13 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:32:13 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0005 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:32:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:32:13 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:32:13 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:32:13 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0009 сек
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:32:13 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:32:13 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:32:13 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:32:13 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:32:13 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:32:13 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:32:13 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:32:13 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:33:08 - INFO - csv_processor - Агрегация успешна. Результат: 116.67 | Время: 0.0006 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (2 строк)
+2025-07-14 22:33:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:33:08 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации AvgAggregator по колонке 'price' (3 строк)
+2025-07-14 22:33:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:33:08 - ERROR - csv_processor - Ошибка агрегации AvgAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (3 строк)
+2025-07-14 22:33:08 - INFO - csv_processor - Агрегация успешна. Результат: 200.00 | Время: 0.0005 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'rating' (2 строк)
+2025-07-14 22:33:08 - ERROR - csv_processor - Колонка 'rating' содержит нечисловые данные
+2025-07-14 22:33:08 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'rating' содержит нечисловые данные | Колонка: rating | Время: 0.0007 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации MaxAggregator по колонке 'price' (1 строк)
+2025-07-14 22:33:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:33:08 - ERROR - csv_processor - Ошибка агрегации MaxAggregator: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0006 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:33:08 - INFO - csv_processor - Агрегация успешна. Результат: 50.00 | Время: 0.0003 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (2 строк)
+2025-07-14 22:33:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:33:08 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0008 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Начало агрегации MinAggregate по колонке 'price' (3 строк)
+2025-07-14 22:33:08 - ERROR - csv_processor - Колонка 'price' содержит нечисловые данные
+2025-07-14 22:33:08 - ERROR - csv_processor - Ошибка агрегации MinAggregate: Колонка 'price' содержит нечисловые данные | Колонка: price | Время: 0.0007 сек
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: could not convert string to float: 'used'
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 2, 'price': 200, 'name': 'Galaxy'}: could not convert string to float: 'Galaxy'
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 3, 'price': 'invalid', 'name': 'Pixel'}: could not convert string to float: 'Pixel'
+2025-07-14 22:33:08 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '>' требует числа. Получено: 'iPhone' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:33:08 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '>' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:33:08 - ERROR - csv_processor - Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '>' требует числа. Получено: 'Pixel' (<class 'str'>) и 'Galaxy' (<class 'str'>)
+2025-07-14 22:33:08 - ERROR - csv_processor - Колонка 'missing_column' не найдена
+2025-07-14 22:33:08 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 1, 'name': 'iPhone', 'status': 'new'}: Оператор '<' требует числа. Получено: 'iPhone' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:33:08 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 2, 'name': 'Galaxy', 'status': 'used'}: Оператор '<' требует числа. Получено: 'Galaxy' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:33:08 - ERROR - csv_processor - Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)
+2025-07-14 22:33:08 - INFO - csv_processor - Пропуск строки {'id': 3, 'name': 'Pixel', 'status': 'new'}: Оператор '<' требует числа. Получено: 'Pixel' (<class 'str'>) и 'iPhone' (<class 'str'>)

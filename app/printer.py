@@ -1,7 +1,7 @@
 import sys
 from tabulate import tabulate
 from typing import Any
-from app.csv_loader import result
+
 
 class Printer():
     def __init__(self,table_format: str='grid'):
